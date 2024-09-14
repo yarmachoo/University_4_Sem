@@ -1,0 +1,1 @@
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\MauiAppL5\MauiAppL5.csproj;x64

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab1.Parser"
+             Title="Parser">
+    <Grid ColumnSpacing="10" RowSpacing="3" BackgroundColor="#FCF8F6" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               Grid.Column="1"
+               Grid.ColumnSpan="2"
+               Text="Input code on Perl"
+               VerticalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Black"/>
+        <Editor Grid.Row="1"
+                Grid.RowSpan="8"
+                Grid.Column="1"
+                Grid.ColumnSpan="4"
+                BackgroundColor="White"
+                Text="Input text..."
+                TextColor="Black"
+                x:Name="CodeOnPerl"
+                />
+        <Button Grid.Row="8"
+                Grid.Column="8"
+                Grid.ColumnSpan="2"
+                BackgroundColor="White"
+                Text="Parse"
+                Clicked="ClickedOnParse">
+        </Button>
+        <Grid Grid.Row="0"
+               Grid.Column="6"
+               Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="j"
+                   Grid.Column="0"
+                   VerticalOptions="End"
+                   HorizontalOptions="Center"
+                   TextColor="Black" 
+                   FontAttributes="Bold"/>
+            <Label Text="Operator"
+                   Grid.Column="1"
+                   VerticalOptions="End"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="F1j"
+                   Grid.Column="2"
+                   VerticalOptions="End"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+        </Grid>
+            <ListView ItemsSource="{Binding OperatorList}"
+              Grid.Row="1"
+                  Grid.RowSpan="6"
+                  Grid.Column="6"
+                  BackgroundColor="White"
+                  Grid.ColumnSpan="2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0"
+                                   Grid.Row="1"
+                                   TextColor="Black"
+                                   Text="{Binding J}"/>
+                            <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   TextColor="Black"
+                                   Text="{Binding Name}"/>
+                            <Label Grid.Column="2"
+                                   Grid.Row="1"
+                                   TextColor="Black"
+                                   Text="{Binding F1j}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <Grid Grid.Row="7"
+        Grid.Column="6"
+        Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Text="n1 = "
+                   Grid.Column="0"
+                   VerticalOptions="Start"
+                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   x:Name="n1"/>
+            <Label Text="N1 = "
+                   Grid.Column="2"
+                   VerticalOptions="Start"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   x:Name="N1"/>
+        </Grid>
+        
+        <Grid Grid.Row="0"
+       Grid.Column="8"
+       Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="   i"
+                   Grid.Column="0"
+                   VerticalOptions="End"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            <Label Text="Operand"
+                   Grid.Column="1"
+                   VerticalOptions="End"
+                   TextColor="Black" 
+                   FontAttributes="Bold"/>
+            <Label Text="  F2i"
+                   Grid.Column="2"
+                   VerticalOptions="End"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+        </Grid>
+        
+        <ListView ItemsSource="{Binding OperandList}"  
+          Grid.Row="1"
+          Grid.RowSpan="6"
+          Grid.Column="8"
+          Grid.ColumnSpan="2"
+          BackgroundColor="White">
+            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0"
+                                   Text="{Binding I}"
+                                   TextColor="Black"/>
+                            <Label Grid.Column="1"
+                                   Text="{Binding Name}"
+                                   TextColor="Black"/>
+                            <Label Grid.Column="2"
+                                   Text="{Binding F2i}"
+                                   TextColor="Black"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid Grid.Row="7"
+        Grid.Column="8"
+        Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Text="n2 = "
+                   Grid.Column="0"
+                   VerticalOptions="Start"
+                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   x:Name="n2"/>
+            <Label Text="N2 = "
+                   Grid.Column="2"
+                   VerticalOptions="Start"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   x:Name="N2"/>
+        </Grid>
+        <Grid Grid.Row="8"
+       Grid.Column="6"
+       Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Text="Словарь: n = "
+                   Grid.Row="0"
+                   VerticalOptions="End"
+                   TextColor="Black"
+                   x:Name="Dictionary"/>
+            <Label Text="Длина: N = "
+                   Grid.Row="1"
+                   VerticalOptions="End"
+                   TextColor="Black"
+                   x:Name="Length"/>
+            <Label Text="Объем: V = "
+                   Grid.Row="2"
+                   VerticalOptions="End"
+                   TextColor="Black"
+                   x:Name="Volume"/>
+        </Grid>
+    </Grid>
+</ContentPage>

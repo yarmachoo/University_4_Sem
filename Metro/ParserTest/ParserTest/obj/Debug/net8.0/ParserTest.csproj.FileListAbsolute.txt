@@ -1,0 +1,14 @@
+D:\Uni\4sem\Metro\ParserTest\ParserTest\bin\Debug\net8.0\ParserTest.exe
+D:\Uni\4sem\Metro\ParserTest\ParserTest\bin\Debug\net8.0\ParserTest.deps.json
+D:\Uni\4sem\Metro\ParserTest\ParserTest\bin\Debug\net8.0\ParserTest.runtimeconfig.json
+D:\Uni\4sem\Metro\ParserTest\ParserTest\bin\Debug\net8.0\ParserTest.dll
+D:\Uni\4sem\Metro\ParserTest\ParserTest\bin\Debug\net8.0\ParserTest.pdb
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\ParserTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\ParserTest.AssemblyInfoInputs.cache
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\ParserTest.AssemblyInfo.cs
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\ParserTest.csproj.CoreCompileInputs.cache
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\ParserTest.dll
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\refint\ParserTest.dll
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\ParserTest.pdb
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\ParserTest.genruntimeconfig.cache
+D:\Uni\4sem\Metro\ParserTest\ParserTest\obj\Debug\net8.0\ref\ParserTest.dll

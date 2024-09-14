@@ -1,0 +1,15 @@
+Quick start guide:
+For CPU:
+g++ -o lab2 CPU.cpp -lm
+
+For off SMT:
+echo "off" | sudo tee /sys/devices/system/cpu/smt/control
+
+For iGPU:
+g++ -o lab2 iGPU.cpp -lOpenCL
+
+For dGPU:
+nvcc -o lab2 dGPU.cu
+
+For start app:
+./lab2

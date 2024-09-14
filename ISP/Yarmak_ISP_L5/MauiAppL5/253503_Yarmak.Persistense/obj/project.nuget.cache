@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "SzvR1aoXPdgqxLoYuoivoEShGR+EWsGnbzrUcByEOtQTLxjPJYvxOoc226pU1tny6iCr9AS1/g968IrRxyNFSg==",
+  "success": true,
+  "projectFilePath": "D:\\Uni\\Yarmak_ISP_L5\\MauiAppL5\\253503_Yarmak.Persistense\\253503_Yarmak.Persistense.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.2\\microsoft.entityframeworkcore.analyzers.8.0.2.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\bin\Debug\net8.0\253503_Yarmak.Persistense.deps.json
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\bin\Debug\net8.0\253503_Yarmak.Persistense.dll
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\bin\Debug\net8.0\253503_Yarmak.Persistense.pdb
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\bin\Debug\net8.0\253503_Yarmak.Domain.dll
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\bin\Debug\net8.0\253503_Yarmak.Domain.pdb
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\253503_Yarmak.Persistense.csproj.AssemblyReference.cache
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\253503_Yarmak.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\253503_Yarmak.Persistense.AssemblyInfoInputs.cache
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\253503_Yarmak.Persistense.AssemblyInfo.cs
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\253503_Yarmak.Persistense.csproj.CoreCompileInputs.cache
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\253503_Yarmak.Persistense.csproj.CopyComplete
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\253503_Yarmak.Persistense.dll
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\refint\253503_Yarmak.Persistense.dll
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\253503_Yarmak.Persistense.pdb
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Persistense\obj\Debug\net8.0\ref\253503_Yarmak.Persistense.dll

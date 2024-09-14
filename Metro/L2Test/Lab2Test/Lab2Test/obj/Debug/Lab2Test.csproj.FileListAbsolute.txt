@@ -1,0 +1,7 @@
+D:\Uni\4sem\Metro\L2Test\Lab2Test\Lab2Test\bin\Debug\Lab2Test.exe.config
+D:\Uni\4sem\Metro\L2Test\Lab2Test\Lab2Test\bin\Debug\Lab2Test.exe
+D:\Uni\4sem\Metro\L2Test\Lab2Test\Lab2Test\bin\Debug\Lab2Test.pdb
+D:\Uni\4sem\Metro\L2Test\Lab2Test\Lab2Test\obj\Debug\Lab2Test.csproj.AssemblyReference.cache
+D:\Uni\4sem\Metro\L2Test\Lab2Test\Lab2Test\obj\Debug\Lab2Test.csproj.CoreCompileInputs.cache
+D:\Uni\4sem\Metro\L2Test\Lab2Test\Lab2Test\obj\Debug\Lab2Test.exe
+D:\Uni\4sem\Metro\L2Test\Lab2Test\Lab2Test\obj\Debug\Lab2Test.pdb

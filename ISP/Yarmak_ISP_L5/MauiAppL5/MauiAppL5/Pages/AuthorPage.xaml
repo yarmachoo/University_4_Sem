@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppL5.Pages.AuthorPage"
+             xmlns:converters="clr-namespace:MauiAppL5.ValueConverters"
+             xmlns:models="clr-namespace:MauiAppL5.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:_253503_Yarmak.Domain.Entities;assembly=253503_Yarmak.Domain"
+             x:DataType="models:AuthorViewModel"
+             Title="AuthorPage">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing"
+                                        Command="{Binding UpdateAuthorsListCommand}"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        <converters:PositionToColorValueConverter x:Key="PositionToColor"/>
+        <converters:IdToImageValueConverter x:Key="IdToImageSource"/>
+        <converters:ValueToBoolConverter x:Key="IsNotNull"/>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Edit" Command="{Binding UpdateAuthorCommand}"/>
+        <ToolbarItem Text="Delete" Command="{Binding DeleteAuthorCommand}"/>
+        <ToolbarItem Text="Add" Command="{Binding AddAuthorCommand}"/>
+        <ToolbarItem Text="Add" Command="{Binding AddBookCommand}"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout Margin="10" Spacing="15">
+        <Label Text="{Binding ErrorText}" />
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <Picker
+                ItemsSource="{Binding Authors}"
+                ItemDisplayBinding="{Binding Name}"
+                Title="Все авторы:"
+                SelectedItem="{Binding SelectedAuthor}"
+                FontSize="20">
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged"
+                                                    Command="{Binding UpdateBooksListCommand}"/>
+                </Picker.Behaviors>
+            </Picker>
+        </HorizontalStackLayout>
+
+        <Frame BackgroundColor="MediumPurple" IsVisible="{Binding SelectedAuthor, Converter={StaticResource IsNotNull}}">
+            <VerticalStackLayout>
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Start">
+                    <Label Text="{Binding SelectedAuthor.Name, StringFormat='Автор: {0}'}"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Start">
+                    <Label Text="{Binding SelectedAuthor.Description, StringFormat='Описание: {0}'}"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Start">
+                    <Label Text="{Binding SelectedAuthor.Books.Count, StringFormat='Количество работ: {0}'}"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+        <CollectionView  ItemsSource="{Binding Books}" VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Book">
+                    <Frame Margin="5" Padding="5" BackgroundColor="{Binding Rate, Converter={StaticResource PositionToColor}}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type models:AuthorViewModel}},
+                                Path=ShowDetailsCommand}" 
+                                CommandParameter="{Binding}"/>
+                        </Frame.GestureRecognizers>
+                        <HorizontalStackLayout Spacing="3">
+                            <Frame Margin="5"
+                                   BorderColor="Black"
+                                   CornerRadius="50"
+                                   HeightRequest="110"
+                                   WidthRequest="110"
+                                   IsClippedToBounds="True" 
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center">
+                                <Image
+                                    Aspect="AspectFill"
+                                    HeightRequest="70"
+                                    WidthRequest="70"
+                                Source="{Binding Id, Converter={StaticResource IdToImageSource}}"></Image>
+                            </Frame>
+                            <VerticalStackLayout VerticalOptions="Center" Spacing="15">
+                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Description, StringFormat='Описание:{0}'}" />
+                                <Label Text="{Binding Rate, StringFormat='Качество:{0}'}" />
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,1 @@
+D:\Uni\4sem\MVVMTest\MvvmTest\MvvmTest\MvvmTest.csproj;x64

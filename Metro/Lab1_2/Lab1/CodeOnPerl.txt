@@ -1,0 +1,40 @@
+$hello = "hi mom";
+
+print "$hello, perl is cool! \n";
+
+
+
+my $local = "I am a local variable";
+our $global = "I am a global variable";
+
+@nums = (10, 20, 30);
+
+@nums[1];  
+
+%friends = ('Larry', 67, 'Ken', 79);
+%friends{'Larry'};
+
+if (5 > 10) {
+    print "hi";
+}
+
+print "hi" if 5 > 10;
+
+$result = (5 > 10)? "hi" : "bye";
+
+sub PerlCanBeFun {
+    print "this is  function\n";
+    my ($n1, $n2) = @_;
+    print $n1 + $n2;
+}
+
+PerlCanBeFun(2, 3);
+
+if ($text =~ /cool/) {
+    # do this
+}
+
+@counter = (1..10);
+$counter[20++];
+$len = @counter;
+print $len;

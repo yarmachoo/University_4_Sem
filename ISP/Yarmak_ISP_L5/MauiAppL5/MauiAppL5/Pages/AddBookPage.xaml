@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppL5.Pages.AddBookPage"
+             xmlns:converters="clr-namespace:MauiAppL5.ValueConverters"
+             xmlns:models="clr-namespace:MauiAppL5.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:AddBookViewModel"
+             Title="AddBookPage">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"
+                                        Command="{Binding UpdateAuthorsListCommand}"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        <converters:ValueToBoolConverter x:Key="isNotNull"/>
+    </ContentPage.Resources>
+    <StackLayout Margin="10" Spacing="15">
+        <VerticalStackLayout>
+            <Button Text="Pick a png page!" Command="{Binding PickImageCommand}"/>
+            <Label Text="Successfully added" IsVisible="{Binding Image, Converter={StaticResource isNotNull}}"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout>
+            <Label Text="Name"/>
+            <Entry Text="{Binding Request.Book.Name}" Placeholder="Name"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout>
+            <Label Text="Description"/>
+            <Entry Text="{Binding Request.Book.Description}" Placeholder="Description"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout>
+            <Label Text="Rate"/>
+            <Entry Text="{Binding Request.Book.Rate}" Placeholder="Rate"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout>
+            <Label Text="Author"/>
+            <Picker
+                ItemsSource="{Binding Authors}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding Author}">
+            </Picker>
+        </VerticalStackLayout>
+        <Button Text="Save" Command="{Binding AddOrUpdateBookCommand}"/>
+        <Label Text="{Binding ErrText}"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,14 @@
+D:\Uni\4sem\AISD\AISD\AISD\bin\Debug\net8.0\TwoPointers.exe
+D:\Uni\4sem\AISD\AISD\AISD\bin\Debug\net8.0\TwoPointers.deps.json
+D:\Uni\4sem\AISD\AISD\AISD\bin\Debug\net8.0\TwoPointers.runtimeconfig.json
+D:\Uni\4sem\AISD\AISD\AISD\bin\Debug\net8.0\TwoPointers.dll
+D:\Uni\4sem\AISD\AISD\AISD\bin\Debug\net8.0\TwoPointers.pdb
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\TwoPointers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\TwoPointers.AssemblyInfoInputs.cache
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\TwoPointers.AssemblyInfo.cs
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\TwoPointers.csproj.CoreCompileInputs.cache
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\TwoPointers.dll
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\refint\TwoPointers.dll
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\TwoPointers.pdb
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\TwoPointers.genruntimeconfig.cache
+D:\Uni\4sem\AISD\AISD\AISD\obj\Debug\net8.0\ref\TwoPointers.dll

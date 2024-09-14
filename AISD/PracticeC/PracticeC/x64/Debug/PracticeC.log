@@ -1,0 +1,3 @@
+﻿  PracticeC.cpp
+D:\Uni\4sem\AISD\PracticeC\PracticeC\PracticeC.cpp(40,43): warning C4244: return: преобразование "double" в "long", возможна потеря данных
+  PracticeC.vcxproj -> D:\Uni\4sem\AISD\PracticeC\x64\Debug\PracticeC.exe

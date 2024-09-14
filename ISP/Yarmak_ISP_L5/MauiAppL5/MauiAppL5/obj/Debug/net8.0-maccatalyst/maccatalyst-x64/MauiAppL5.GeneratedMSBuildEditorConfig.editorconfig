@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiAppL5
+build_property.ProjectDir = D:\Uni\Yarmak_ISP_L5\MauiAppL5\MauiAppL5\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/Pages/AddAuthorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.Pages.AddAuthorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddAuthorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddAuthorPage.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/Pages/AddBookPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.Pages.AddBookPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddBookPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddBookPage.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/Pages/AuthorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.Pages.AuthorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AuthorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AuthorPage.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/Pages/BookPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.Pages.BookPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BookPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BookPage.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Uni/Yarmak_ISP_L5/MauiAppL5/MauiAppL5/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppL5.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

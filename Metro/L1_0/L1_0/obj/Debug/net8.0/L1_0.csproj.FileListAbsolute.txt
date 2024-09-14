@@ -1,0 +1,14 @@
+D:\Uni\4sem\Metro\L1_0\L1_0\bin\Debug\net8.0\L1_0.exe
+D:\Uni\4sem\Metro\L1_0\L1_0\bin\Debug\net8.0\L1_0.deps.json
+D:\Uni\4sem\Metro\L1_0\L1_0\bin\Debug\net8.0\L1_0.runtimeconfig.json
+D:\Uni\4sem\Metro\L1_0\L1_0\bin\Debug\net8.0\L1_0.dll
+D:\Uni\4sem\Metro\L1_0\L1_0\bin\Debug\net8.0\L1_0.pdb
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\L1_0.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\L1_0.AssemblyInfoInputs.cache
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\L1_0.AssemblyInfo.cs
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\L1_0.csproj.CoreCompileInputs.cache
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\L1_0.dll
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\refint\L1_0.dll
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\L1_0.pdb
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\L1_0.genruntimeconfig.cache
+D:\Uni\4sem\Metro\L1_0\L1_0\obj\Debug\net8.0\ref\L1_0.dll

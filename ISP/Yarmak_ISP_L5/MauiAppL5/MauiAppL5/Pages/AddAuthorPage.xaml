@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppL5.Pages.AddAuthorPage"
+             xmlns:converters="clr-namespace:MauiAppL5.ValueConverters"
+             xmlns:models="clr-namespace:MauiAppL5.ViewModels"
+             x:DataType="models:AddAuthorViewModel"
+             Title="AddAuthorPage">
+    <ContentPage.Resources>
+        <converters:ValueToBoolConverter x:Key="IsNotNull"></converters:ValueToBoolConverter>
+    </ContentPage.Resources>
+    <StackLayout Margin="10" Spacing="15">
+        <HorizontalStackLayout>
+            <Button Text="Pick a png image!!!" Command="{Binding PickImageCommand}"/>
+            <Label Text="Successfully added" IsVisible="{Binding Image, Converter={StaticResource IsNotNull}}" />
+        </HorizontalStackLayout>
+        <VerticalStackLayout>
+            <Label Text="Name"/>
+            <Entry Text="{Binding Request.Author.Name}" Placeholder="Name"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout>
+            <Label Text="Description"/>
+            <Entry Text="{Binding Request.Author.Description}" Placeholder="Description"/>
+        </VerticalStackLayout>
+        <Button Text="Save" Command="{Binding AddOrUpdateAuthorCommand}"/>
+    </StackLayout>
+</ContentPage>

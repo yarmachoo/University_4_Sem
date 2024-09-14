@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab1.Parser"
+             Title="Parser">
+    <Grid ColumnSpacing="10" RowSpacing="3" BackgroundColor="#FCF8F6" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               Grid.Column="1"
+               Grid.ColumnSpan="2"
+               Text="Input code on Perl"
+               VerticalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Black"/>
+        <Editor Grid.Row="1"
+                Grid.RowSpan="8"
+                Grid.Column="1"
+                Grid.ColumnSpan="5"
+                BackgroundColor="White"
+                Text="Input text..."
+                TextColor="Black"
+                x:Name="CodeOnPerl"
+                />
+        <Button Grid.Row="8"
+                Grid.Column="8"
+                Grid.ColumnSpan="2"
+                BackgroundColor="White"
+                Text="Parse"
+                Clicked="ClickedOnParse">
+        </Button>
+
+        <Label     Text="Максимальный уровень вложенности CLI: "
+                   Grid.Row="2"
+                   Grid.RowSpan="1"
+                   Grid.ColumnSpan="2"
+                   Grid.Column="7"
+                   VerticalOptions="End"
+                   TextColor="Black"
+                   x:Name="Volume"/>
+
+        <Label     Text="cl: "
+                   Grid.Row="4"
+                   Grid.RowSpan="1"
+                   Grid.ColumnSpan="2"
+                   Grid.Column="7"
+                   VerticalOptions="End"
+                   TextColor="Black"
+                   x:Name="N1"/>
+        
+        <Label     Text="CL: "
+                   Grid.Row="3"
+                   Grid.RowSpan="1"
+                   Grid.ColumnSpan="2"
+                   Grid.Column="7"
+                   VerticalOptions="End"
+                   TextColor="Black"
+                   x:Name="N2"/>
+
+    </Grid>
+</ContentPage>

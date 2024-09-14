@@ -1,0 +1,14 @@
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\bin\Debug\net8.0\OperatorsParser.exe
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\bin\Debug\net8.0\OperatorsParser.deps.json
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\bin\Debug\net8.0\OperatorsParser.runtimeconfig.json
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\bin\Debug\net8.0\OperatorsParser.dll
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\bin\Debug\net8.0\OperatorsParser.pdb
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\OperatorsParser.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\OperatorsParser.AssemblyInfoInputs.cache
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\OperatorsParser.AssemblyInfo.cs
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\OperatorsParser.csproj.CoreCompileInputs.cache
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\OperatorsParser.dll
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\refint\OperatorsParser.dll
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\OperatorsParser.pdb
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\OperatorsParser.genruntimeconfig.cache
+D:\Uni\4sem\Metro\ParserTest\OperatorsParser\obj\Debug\net8.0\ref\OperatorsParser.dll

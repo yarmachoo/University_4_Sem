@@ -1,0 +1,15 @@
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\bin\Debug\net8.0\253503_Yarmak.Application.deps.json
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\bin\Debug\net8.0\253503_Yarmak.Application.dll
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\bin\Debug\net8.0\253503_Yarmak.Application.pdb
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\bin\Debug\net8.0\253503_Yarmak.Domain.dll
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\bin\Debug\net8.0\253503_Yarmak.Domain.pdb
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\253503_Yarmak.Application.csproj.AssemblyReference.cache
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\253503_Yarmak.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\253503_Yarmak.Application.AssemblyInfoInputs.cache
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\253503_Yarmak.Application.AssemblyInfo.cs
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\253503_Yarmak.Application.csproj.CoreCompileInputs.cache
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\253503_Yarmak.Application.csproj.CopyComplete
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\253503_Yarmak.Application.dll
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\refint\253503_Yarmak.Application.dll
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\253503_Yarmak.Application.pdb
+D:\Uni\Yarmak_ISP_L5\MauiAppL5\253503_Yarmak.Application\obj\Debug\net8.0\ref\253503_Yarmak.Application.dll
